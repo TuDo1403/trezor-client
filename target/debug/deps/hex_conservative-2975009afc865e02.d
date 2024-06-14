@@ -1,0 +1,10 @@
+/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/debug/deps/libhex_conservative-2975009afc865e02.rmeta: /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/lib.rs /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/buf_encoder.rs /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/display.rs /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/error.rs /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/iter.rs /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/parse.rs
+
+/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/debug/deps/hex_conservative-2975009afc865e02.d: /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/lib.rs /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/buf_encoder.rs /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/display.rs /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/error.rs /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/iter.rs /Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/parse.rs
+
+/Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/lib.rs:
+/Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/buf_encoder.rs:
+/Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/display.rs:
+/Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/error.rs:
+/Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/iter.rs:
+/Users/tudo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-conservative-0.1.1/src/parse.rs:

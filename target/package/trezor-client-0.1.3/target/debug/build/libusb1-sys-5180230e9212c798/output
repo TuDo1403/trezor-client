@@ -1,0 +1,151 @@
+cargo:rerun-if-env-changed=LIBUSB_STATIC
+cargo:rerun-if-env-changed=LIBUSB_1.0_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+Can't find libusb pkg: Could not run `PKG_CONFIG_ALLOW_SYSTEM_LIBS=1 PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags libusb-1.0`
+The pkg-config command could not be found.
+
+Most likely, you need to install a pkg-config package for your OS.
+Try `brew install pkg-config` if you have Homebrew.
+
+If you've already installed it, ensure the pkg-config command is one of the
+directories in the PATH environment variable.
+
+If you did not expect this build to link to a pre-installed system library,
+then check documentation of the libusb1-sys crate for an option to
+build the library from source, or disable features or dependencies
+that require pkg-config.
+cargo:vendored=1
+cargo:static=1
+cargo:include=/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/include
+cargo:rustc-link-lib=framework=CoreFoundation
+cargo:rustc-link-lib=framework=IOKit
+cargo:rustc-link-lib=framework=Security
+cargo:rerun-if-env-changed=LIBUDEV_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=LIBUDEV_STATIC
+cargo:rerun-if-env-changed=LIBUDEV_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=LIBUDEV_STATIC
+cargo:rerun-if-env-changed=LIBUDEV_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+Including posix!
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+cargo:rerun-if-env-changed=CC_aarch64-apple-darwin
+CC_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CC_aarch64_apple_darwin
+CC_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("aes,crc,dit,dotprod,dpb,dpb2,fcma,fhm,flagm,fp16,frintts,jsconv,lor,lse,neon,paca,pacg,pan,pmuv3,ras,rcpc,rcpc2,rdm,sb,sha2,sha3,ssbs,vh")
+cargo:rerun-if-env-changed=CFLAGS_aarch64-apple-darwin
+CFLAGS_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64_apple_darwin
+CFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/include" "-I" "libusb/libusb" "-Wall" "-Wextra" "-DPRINTF_FORMAT(a, b)=" "-DENABLE_LOGGING=1" "-DOS_DARWIN=1" "-DTARGET_OS_OSX=1" "-DHAVE_SYS_TIME_H=1" "-DHAVE_NFDS_T=1" "-DPLATFORM_POSIX=1" "-DHAVE_CLOCK_GETTIME=1" "-DDEFAULT_VISIBILITY=__attribute__((visibility(\"default\")))" "-o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/os/darwin_usb.o" "-c" "libusb/libusb/os/darwin_usb.c"
+exit status: 0
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/include" "-I" "libusb/libusb" "-Wall" "-Wextra" "-DPRINTF_FORMAT(a, b)=" "-DENABLE_LOGGING=1" "-DOS_DARWIN=1" "-DTARGET_OS_OSX=1" "-DHAVE_SYS_TIME_H=1" "-DHAVE_NFDS_T=1" "-DPLATFORM_POSIX=1" "-DHAVE_CLOCK_GETTIME=1" "-DDEFAULT_VISIBILITY=__attribute__((visibility(\"default\")))" "-o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/os/events_posix.o" "-c" "libusb/libusb/os/events_posix.c"
+exit status: 0
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/include" "-I" "libusb/libusb" "-Wall" "-Wextra" "-DPRINTF_FORMAT(a, b)=" "-DENABLE_LOGGING=1" "-DOS_DARWIN=1" "-DTARGET_OS_OSX=1" "-DHAVE_SYS_TIME_H=1" "-DHAVE_NFDS_T=1" "-DPLATFORM_POSIX=1" "-DHAVE_CLOCK_GETTIME=1" "-DDEFAULT_VISIBILITY=__attribute__((visibility(\"default\")))" "-o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/os/threads_posix.o" "-c" "libusb/libusb/os/threads_posix.c"
+exit status: 0
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/include" "-I" "libusb/libusb" "-Wall" "-Wextra" "-DPRINTF_FORMAT(a, b)=" "-DENABLE_LOGGING=1" "-DOS_DARWIN=1" "-DTARGET_OS_OSX=1" "-DHAVE_SYS_TIME_H=1" "-DHAVE_NFDS_T=1" "-DPLATFORM_POSIX=1" "-DHAVE_CLOCK_GETTIME=1" "-DDEFAULT_VISIBILITY=__attribute__((visibility(\"default\")))" "-o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/core.o" "-c" "libusb/libusb/core.c"
+exit status: 0
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/include" "-I" "libusb/libusb" "-Wall" "-Wextra" "-DPRINTF_FORMAT(a, b)=" "-DENABLE_LOGGING=1" "-DOS_DARWIN=1" "-DTARGET_OS_OSX=1" "-DHAVE_SYS_TIME_H=1" "-DHAVE_NFDS_T=1" "-DPLATFORM_POSIX=1" "-DHAVE_CLOCK_GETTIME=1" "-DDEFAULT_VISIBILITY=__attribute__((visibility(\"default\")))" "-o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/descriptor.o" "-c" "libusb/libusb/descriptor.c"
+exit status: 0
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/include" "-I" "libusb/libusb" "-Wall" "-Wextra" "-DPRINTF_FORMAT(a, b)=" "-DENABLE_LOGGING=1" "-DOS_DARWIN=1" "-DTARGET_OS_OSX=1" "-DHAVE_SYS_TIME_H=1" "-DHAVE_NFDS_T=1" "-DPLATFORM_POSIX=1" "-DHAVE_CLOCK_GETTIME=1" "-DDEFAULT_VISIBILITY=__attribute__((visibility(\"default\")))" "-o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/hotplug.o" "-c" "libusb/libusb/hotplug.c"
+exit status: 0
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/include" "-I" "libusb/libusb" "-Wall" "-Wextra" "-DPRINTF_FORMAT(a, b)=" "-DENABLE_LOGGING=1" "-DOS_DARWIN=1" "-DTARGET_OS_OSX=1" "-DHAVE_SYS_TIME_H=1" "-DHAVE_NFDS_T=1" "-DPLATFORM_POSIX=1" "-DHAVE_CLOCK_GETTIME=1" "-DDEFAULT_VISIBILITY=__attribute__((visibility(\"default\")))" "-o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/io.o" "-c" "libusb/libusb/io.c"
+exit status: 0
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/include" "-I" "libusb/libusb" "-Wall" "-Wextra" "-DPRINTF_FORMAT(a, b)=" "-DENABLE_LOGGING=1" "-DOS_DARWIN=1" "-DTARGET_OS_OSX=1" "-DHAVE_SYS_TIME_H=1" "-DHAVE_NFDS_T=1" "-DPLATFORM_POSIX=1" "-DHAVE_CLOCK_GETTIME=1" "-DDEFAULT_VISIBILITY=__attribute__((visibility(\"default\")))" "-o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/strerror.o" "-c" "libusb/libusb/strerror.c"
+exit status: 0
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/include" "-I" "libusb/libusb" "-Wall" "-Wextra" "-DPRINTF_FORMAT(a, b)=" "-DENABLE_LOGGING=1" "-DOS_DARWIN=1" "-DTARGET_OS_OSX=1" "-DHAVE_SYS_TIME_H=1" "-DHAVE_NFDS_T=1" "-DPLATFORM_POSIX=1" "-DHAVE_CLOCK_GETTIME=1" "-DDEFAULT_VISIBILITY=__attribute__((visibility(\"default\")))" "-o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/sync.o" "-c" "libusb/libusb/sync.c"
+exit status: 0
+cargo:rerun-if-env-changed=AR_aarch64-apple-darwin
+AR_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=AR_aarch64_apple_darwin
+AR_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64-apple-darwin
+ARFLAGS_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64_apple_darwin
+ARFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb-vendored.a" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/os/darwin_usb.o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/os/events_posix.o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/os/threads_posix.o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/core.o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/descriptor.o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/hotplug.o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/io.o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/strerror.o" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb/libusb/sync.o"
+exit status: 0
+running: "ar" "s" "/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out/libusb-vendored.a"
+exit status: 0
+cargo:rustc-link-lib=static=usb-vendored
+cargo:rustc-link-search=native=/Users/tudo/repo/trezor-firmware/rust/trezor-client/target/package/trezor-client-0.1.3/target/debug/build/libusb1-sys-5180230e9212c798/out
+cargo:version_number=1.0.24
